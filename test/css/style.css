@@ -1,8 +1,9 @@
-h1{
-    color: blue;
+.intro{
+    position :absolute;
+    margin: 0px;
 }
 
-p{
-    color:aqua;
-
+h3{
+    display : flex;
+    justify-content : center;
 }
