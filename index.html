@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Document</title>
+</head>
+<body>
+    <div class="header">
+        <div class="form">
+            <div class="form_dki">
+                <h2>Đăng Ký Tài Khoản</h2>
+            </div>
+        </div>
+        <div class="form-content">
+            <div class="form-group">
+                <label for="username">Tên Đăng Nhập:</label><br>
+                <input type="text" id="username" name="username" placeholder="Nhập họ và tên..."><br>
+                <label for="email">Email</label><br>
+                <input type="text" id="email" name="email" placeholder="Nhập email..."><br>
+                <label for="number">Number</label><br>
+                <input type="number" id="number" name="number" placeholder="Nhập số điện thoại..."><br><br>
+                <label for="course">Course</label>
+                    <select id="course" name="course">
+                        <option value="python">Python</option>
+                        <option value="java">Java</option>
+                        <option value="c++">C++</option>
+                        <option value="c#">C#</option>
+                        <option value="...">...</option>
+                    </select>
+            </div>
+            <div class="pay">
+                <br><label for="pay">Payment method</label><br>
+                <input type="radio" id="pay" name="pay">
+                <label for="pay1">Cash</label>
+                <input type="radio" id="pay" name="pay">
+                <label for="pay2">Bank</label>
+            </div>
+        </div>
+        <div class="footer">
+            <br><button type="submit">Đăng Ký</button>
+            <button type="reset">Hủy</button>
+        </div>
+    </div>    
+</body>
+</html>
